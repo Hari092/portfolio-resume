@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ol li{
+    list-style-type: none;
+    padding: 1rem;
+    padding-top: 0.8rem;
+}
+#list-nav{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top:0.8rem ;
+    font-family: 'Lato', sans-serif;
+}
+.e{
+    text-decoration: none;
+    color:#fff;
+}
+nav{
+    height: 4rem;
+    background-color:black;
+    border-bottom:2px solid whitesmoke;
+}
+.e:hover{
+    text-decoration: underline solid orangered;
+    font-size: large;
+    transition: 0.2s;
+}
+h1{
+    font-size: xx-large;
+    color: #fff;
+}
+/**nav{
+    position: absolute;
+    width: 100%;}**/
+/**header end**/
+.section1{
+    height: 650px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 4rem;
+}
+h2{
+    color: #fff;
+    font-size: 4rem;
+}
+#img1{
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+}
+#para1{
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.logo{
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+#section2{
+    height: 600px;
+    background-color: black;
+    padding-right: 3rem;
+}
+h3,h4{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+#intro,article{
+    color: #fff;
+    padding-left: 5rem;
+}
+#intro{
+    font-size: 2.5rem;
+    word-spacing: .8rem;
+}
+article{
+    font-size: 2rem;
+    padding-top: 3rem;
+    word-spacing:.2rem ;
+}
+.education{
+    font-size:1.5rem;
+    color: #fff;
+}
+h4{
+    padding-top: 3rem;
+}
+/*projects*/
+.section3{
+    height: 1050px;
+    background-color: black;
+}
+#row1,#row2{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px;
+}
+h4{
+    color: #fff;
+}
+.pro1{
+    height: 22rem;
+    width: 30rem;
+}
+.code{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom:1rem;
+}
+.big,.small{
+    color: #fff;
+}
+.big:hover{
+    font-size: 20px;
+}
+.small:hover{
+    font-size: 20px;
+}
+.section4{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+.skill-logo{
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+#Skill1{
+    font-size:10rem ;
+    letter-spacing: 5rem;
+    justify-content: center;
+    padding-left: 70px;
+    padding-top: 5rem;
+}
+.contact-box{
+    height: auto;
+    width: 100%;
+    padding-top: 3rem;
+    background-color: black;
+}
+.section5 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+
+  h6{
+    text-align: center;
+    color: #333333;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  #contactme{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #555555;
+  }
+

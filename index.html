@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Lato&family=Montserrat:wght@100&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Hariharan-Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+                <h1>Hariharan I</h1>
+                <ol id="list-nav">
+                    <a href="#HOME" class="e"><li>HOME</li></a>
+                    <a href="#ABOUT" class="e"><li>ABOUT</li></a>
+                    <a href="#PROJECTS" class="e"><li>PROJECTS</li></a>
+                    <a href="#SKILLS" class="e"><li>SKILLS</li></a>
+                    <a href="#CONTACT" class="e"><li>CONTACT</li></a>
+                </ol>
+            </div>
+    </nav>
+    <div class="section1" id="HOME">
+        <div class="text1">
+            <h2>Hi! I'M Hariharan</h2>
+            <p id="para1">Full Time Front-End Developer</p>
+            <a href="https://github.com/dashboard" class="logo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/hariharan-i-643178230"class="logo"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/Harii018?t=hI1QUFVzhn_wLsC3AYHg5g&s=08"class="logo"><i class="fa-brands fa-twitter"></i></a>
+            <a href="harishpoo25@gmail.com"class="logo"><i class="fa-solid fa-square-envelope"></i></a>
+        </div>
+        <div class="imgb" id="imgb">
+            <img src="IMG_20200503_153348_979.jpg" alt="image" id="img1">
+        </div>
+    </div>
+    <div class="section2" id="section2">
+        <div class="About" id="ABOUT">
+            <h3>ABOUT ME</h3>
+            <div>
+            <p id="intro">Hello! I'm <i>HARIHARAN</i>,<br> A passionate and aspiring frontend developer looking to kickstart my career in the dynamic world of web development.</p>
+            <article>I have recently completed my studies and obtained a solid foundation 
+                in<i> <u>HTML, CSS, and Bootstrap.</u></i> <br> While I may not have professional experience yet, I have spent considerable time honing my skills through personal projects and online tutorials.</article>
+            </div>
+        </div>
+    </div>
+    <div class="section3" id="section3">
+        <div class="PROJECTS" id="PROJECTS">
+            <h4>PROJECTS</h4>
+        </div>
+        <div class="row1" id="row1">
+            <div class="pro1">
+                <img src="pro1.png" alt="pro1" class="pro1">
+                <div class="code">
+                    <a href="https://github.com/Hari092/frontendmentorvchallange/blob/main/image-product-desktop.jpg" class="big">CODE</a>
+                    <a href="https://dashing-figolla-23e3d9.netlify.app/" class="small">DEMO</a>
+                </div>
+            </div>
+            <div class="pro2">
+                <img src="pro2.png" alt="pro2" class="pro1">
+                <div class="code">
+                    <a href="https://github.com/Hari092/SOLUTIONQRCODE" class="big">CODE</a>
+                    <a href="https://rad-truffle-6ea4ff.netlify.app/" class="small">DEMO</a>
+                </div>
+            </div>
+        </div>
+        <div class="row2" id="row2">
+            <div class="pro1">
+                <img src="pro3.png" alt="pro1" class="pro1">
+                <div class="code">
+                    <a href="https://github.com/Hari092/cssstat"class="big">CODE</a>
+                    <a href="https://idyllic-unicorn-bb8d1c.netlify.app/" class="small">DEMO</a>
+                </div>
+            </div>
+            <div class="pro2">
+                <img src="pro4.png" alt="pro2" class="pro1">
+                <div class="code">
+                    <a href="https://github.com/Hari092/landing"class="big">CODE</a>
+                    <a href="https://stellular-chaja-c3b3f5.netlify.app/" class="small">DEMO</a>
+                </div>
+            </div>
+    </div>
+    <div class="section4" id="SKILLS">
+        <h4>SKILLS</h4>
+        <div class="skill-logo">
+            <i id="Skill1" class="fa-brands fa-html5 fa-bounce" style="color: #d90d0d;"></i>
+            <i id="Skill1"class="fa-brands fa-css3-alt fa-bounce" style="color: #d0dcf1;"></i>
+            <i id="Skill1"class="fa-brands fa-bootstrap fa-bounce" style="color: #aff8f3;"></i>
+        </div>
+    </div>
+    <div class="contact-box">
+    <div class="section5" id="CONTACT">
+        <h6>CONTACT</h6>
+        <p id="contactme">Submit the form to get in touch with me</p>
+        <form id="contact-form" method="post" action="#">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <input type="submit" value="Let's Talk">
+          </form>
+    </div>
+</div>
+</body>
+</html>
